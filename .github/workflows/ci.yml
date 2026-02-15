@@ -39,6 +39,6 @@ jobs:
       
       - name: Get the user_name and password from github
         run: |
-            echo "Username: ${{ vars.USER_NAME }}"
+            echo "Username: ${{ vars.USERNAME }}"
             echo "Password: ${{ secrets.PASSWORD }}"
 
